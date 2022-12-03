@@ -1,166 +1,353 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Monde's Diary</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  </head>
 
-</head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center shadow">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="./assets/images/logo.png" alt="" height="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link" href="/">Home</a>
+            </li>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center shadow">
-        <div class="container">
-            <a class='navbar-brand' href='/'>
-                <img src="./assets/images/logo.png" alt="" height="50">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a aria-current='page' class='nav-link' href='/'>Home</a>
-                    </li>
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link" href="about.html"
+                >About</a
+              >
+            </li>
 
-                    <li class="nav-item">
-                        <a aria-current='page' class='nav-link' href='loans.html'>Get A Quickie</a>
-                    </li>
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link" href="mentorship.html"
+                >Mentorship Movement</a
+              >
+            </li>
 
-                    <li class="nav-item">
-                        <a aria-current='page' class='nav-link' href='trade-financing.html'>Trade Financing</a>
-                    </li>
+            <li class="nav-item">
+              <a aria-current="page" class="nav-link" href="apply.html"
+                >Join Our Team</a
+              >
+            </li>
 
-                    <li class="nav-item">
-                        <a aria-current='page' class='nav-link' href='invest-and-earn.html'>Invest & Earn</a>
-                    </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
 
-                    <li class="nav-item">
-                        <a aria-current='page' class='nav-link' href='index.html#faqsection'>FAQs</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class='nav-link' href='contact-us.html'>Contact Us</a>
-                    </li>
-
-                    <li>
-                        <div class="d-lg-none">
-                            <a href="https://www.linkedin.com/company/campusnkhani" target="_blank"
-                                class="btn btn-light btn-sm" type="button"><i class="bi bi-linkedin"></i></a>
-                            <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"><i
-                                    class="bi bi-twitter"></i></a>
-                            <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"><i
-                                    class="bi bi-facebook"></i></a>
-                            <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"><i
-                                    class="bi bi-instagram"></i></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-grid gap-1 d-none d-lg-block">
-                <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"><i class="bi bi-twitter"></i></a>
-                <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"><i
-                        class="bi bi-facebook"></i></a>
-                <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"><i
-                        class="bi bi-instagram"></i></a>
-            </div>
+            <li>
+              <div class="d-lg-none">
+                <a
+                  href="https://www.linkedin.com/company/campusnkhani"
+                  target="_blank"
+                  class="btn btn-light btn-sm"
+                  type="button"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-light btn-sm"
+                  type="button"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-light btn-sm"
+                  type="button"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-light btn-sm"
+                  type="button"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </div>
+            </li>
+          </ul>
         </div>
+        <div class="d-grid gap-1 d-none d-lg-block">
+          <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </div>
+      </div>
     </nav>
 
-    <div class="container">
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdgU2AtLhNVLRa6hu7iEAOuC5be6x73xvwijxRH5s_b-ZvWMQ/viewform?embedded=true"
-            width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <div class="display-2 text-center text-white bg-primary p-5">
+      Join Our Team
+    </div>
+
+    <div class="container m-5 mx-auto" style="max-width: 700px">
+      <p class="lead">
+        The Organization is seeking the services of self-motivated and
+        goal-oriented individuals to fill the positions of one thousand (1000)
+        Chaplains across five Zambian provinces.
+      </p>
+
+      <table>
+        <tr>
+          <th>Name of Province</th>
+          <th class="px-3">No. Chaplains</th>
+        </tr>
+        <tr>
+          <td>Lusaka Province</td>
+          <td class="px-3">500</td>
+        </tr>
+        <tr>
+          <td>Copper-belt Province</td>
+          <td class="px-3">150</td>
+        </tr>
+        <tr>
+          <td>Eastern Province</td>
+          <td class="px-3">130</td>
+        </tr>
+        <tr>
+          <td>Southern Province</td>
+          <td class="px-3">120</td>
+        </tr>
+        <tr>
+          <td>Central Province</td>
+          <td class="px-3">100</td>
+        </tr>
+      </table>
+
+      <h4 class="mt-3">Responsibilities</h4>
+      <ol>
+        <li>Conduct reading clubs in schools</li>
+        <li>Appoint Alpha and Beta Champions to sale the book Monde’s Diary</li>
+        <li>
+          Raise purchase orders for school so that a consignment of books are
+          delivered
+        </li>
+        <li>Conduct Monde Mentor Me Parties</li>
+      </ol>
+
+      <h4>Qualifications</h4>
+      <ol>
+        <li>
+          Grade 12 certificate with English and Mathematics in the best five
+          subjects
+        </li>
+        <li>Diploma or Degree in any field will be an added advantage</li>
+        <li>
+          Qualified primary and secondary teachers are also encouraged to apply
+        </li>
+        <li>
+          School leavers including grade 12 who completed this year (2022) are
+          encouraged to apply
+        </li>
+        <li>Applicants should be aged between 18years and 30 years</li>
+      </ol>
+
+      <h4>Remuneration</h4>
+      <ol>
+        <li>
+          Upon signing the contract Chaplains will be paid according to
+          performance
+        </li>
+        <li>
+          Minimum K5000, with good performance K7, 000 and with excellent
+          performance K10, 000
+        </li>
+      </ol>
+
+      <h4>HOW TO APPLY</h4>
+
+      <p>
+        Pay a non-refundable application fee of K100 which will be applied
+        towards your training and issuance of the Standard Operational
+        Guidelines (SOG) and the book Monde’s Diary.
+      </p>
+
+      <p>
+        This payment can be deposited in the FNB account; 62942781891 or to the
+        Airtel mobile number 0973999492. When you make the deposit of K100 put
+        the transaction number or bank receipt number on the application form
+        which you will fill in on the organization website www.mondesdiary.org
+      </p>
+
+      <p>
+        Or you can email your name to mondesdiary@gmail.com and an application
+        form will be forwarded to you. You can also request for the application
+        form on the whatsapp platform on 0978412058. Applicants who do not pay
+        the K100 will not be considered for training.
+      </p>
+
+      <p>
+        The closing date for applications is the 28th December 2022. Shortlisted
+        candidates will be contacted through all the mediums for the training
+        that will start on 9th January 2023 to 13th January 2023. Applicants
+        that are in Livingstone District can leave their application forms at
+        the Department of Social Welfare with the District Social Welfare
+        Officer, Mr Modern Simabenga. If you are not in Livingstone, please send
+        the application form on the email address above or on the whatsApp line
+        above.
+      </p>
+
+      <p>This is a call to build the destinies of our future generations!!!</p>
+
+      <div class="d-grid gap-2">
+        <a class="btn btn-primary" role="button">DOWNLOAD APPLICATION FORM</a>
+        <a class="btn btn-primary" role="button">APPLY NOW ONLINE</a>
+      </div>
     </div>
 
     <!-- footer start -->
     <section class="footer mt-5 pt-5">
-        <footer class="mt-auto bg-primary text-white">
-            <!-- Grid container -->
+      <footer class="mt-auto bg-primary text-white">
+        <!-- Grid container -->
 
-            <div class="container-lg p-4">
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-md-6 mb-4 mb-md-0 pe-5">
-                        <h5>Monde's Diary</h5>
-                        <p>We allow customers to access small to medium-sized loans. Monde's Diary is a part of QMos
-                            Investments.</p>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-3 b-4 mb-md-0">
-                        <h5 class="text-uppercase">Links</h5>
-
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a class='text-white text-decoration-none' href='loans.html'>Get A Loan</a>
-                            </li>
-
-                            <li>
-                                <a class='text-white text-decoration-none' href='trade-financing.html'>Get Trade
-                                    Financing</a>
-                            </li>
-
-                            <li>
-                                <a class='text-white text-decoration-none' href='invest-and-earn.html'>Invest & Earn</a>
-                            </li>
-
-                            <li>
-                                <a href="contact-us.html" class="text-white text-decoration-none">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class=" col-md-3 b-4 mb-md-0">
-                        <h5 class="text-uppercase">Connect</h5>
-                        <p><i class="fa fa-envelope-o mr-3"></i><a class="text-white text-decoration-none""
-                                href=" mailto:theigroovenation@gmail.com">qmosinvestments@gmail.com</a> </p>
-                        <div class="d-grid gap-1 d-sm-block">
-                            <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"><i
-                                    class="bi bi-twitter"></i></a>
-                            <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"><i
-                                    class="bi bi-facebook"></i></a>
-                            <a href="#" target="_blank" class="btn btn-light btn-sm" type="button"><i
-                                    class="bi bi-instagram"></i></a>
-                        </div>
-                    </div>
-                    <!--Grid column-->
-                </div>
-                <!--Grid row-->
+        <div class="container-lg p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-6 mb-4 mb-md-0 pe-5">
+              <h5>Monde's Diary</h5>
+              <p>
+                We allow customers to access small to medium-sized loans.
+                Monde's Diary is a part of QMos Investments.
+              </p>
             </div>
-            <!-- Grid container -->
+            <!--Grid column-->
 
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                Monde's Diary © 2022. Developed by <a class="text-white text-decoration-none" href="https://wishbox.dev"
-                    target="_blank">The
-                    Wishbox</a>.
+            <!--Grid column-->
+            <div class="col-md-3 b-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a class="text-white text-decoration-none" href="loans.html"
+                    >Get A Loan</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-decoration-none"
+                    href="trade-financing.html"
+                    >Get Trade Financing</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-decoration-none"
+                    href="invest-and-earn.html"
+                    >Invest & Earn</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="contact-us.html"
+                    class="text-white text-decoration-none"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
             </div>
-            <!-- Copyright -->
-        </footer>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 b-4 mb-md-0">
+              <h5 class="text-uppercase">Connect</h5>
+              <p>
+                <i class="fa fa-envelope-o mr-3"></i
+                ><a
+                  class="text-white text-decoration-none"
+                  href=" mailto:theigroovenation@gmail.com"
+                  >mondesdiary@gmail.com</a
+                >
+              </p>
+              <div class="d-grid gap-1 d-sm-block">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-light btn-sm"
+                  type="button"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-light btn-sm"
+                  type="button"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-light btn-sm"
+                  type="button"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)">
+          Monde's Diary © 2022. Developed by
+          <a
+            class="text-white text-decoration-none"
+            href="https://wishbox.dev"
+            target="_blank"
+            >The Wishbox</a
+          >.
+        </div>
+        <!-- Copyright -->
+      </footer>
     </section>
     <!-- footer end -->
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-</body>
-
+  </body>
 </html>
