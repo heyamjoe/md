@@ -1,0 +1,9 @@
+// primary and secondary colors
+$blue: #050c30;
+$green: #0c3005;
+
+$primary: $blue;
+$secondary: $green;
+
+// import bootstrap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
